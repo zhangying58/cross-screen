@@ -1,0 +1,25 @@
+{
+  "name": "@zz-yy/cross-screen",
+  "version": "1.0.4",
+  "description": "横屏显示",
+  "main": "dist/screen.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "test": "mocha --ui qunit --compilers js:babel-core/register"
+  },
+  "keywords": [
+    "cross",
+    "screen"
+  ],
+  "author": "zhangying29",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.0"
+  }
+}
